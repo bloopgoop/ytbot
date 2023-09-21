@@ -5,8 +5,8 @@ class VoiceCommands(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def kys(self, ctx):
-        await ctx.send('no u!')
+    async def bing(self, ctx):
+        await ctx.send('bong!')
 
 async def setup(bot):
     await bot.add_cog(VoiceCommands(bot))
